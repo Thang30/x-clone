@@ -1,18 +1,16 @@
-import { imagekit } from "@/utils";
 import Image from "./Image";
 import PostInfo from "./PostInfo";
 import PostInteractions from "./PostInteractions";
-import Video from "./Video";
 import Link from "next/link";
 
-interface FileDetailsResponse {
-  width: number;
-  height: number;
-  filePath: string;
-  url: string;
-  fileType: string;
-  customMetadata?: { sensitive: boolean };
-}
+// interface FileDetailsResponse {
+//   width: number;
+//   height: number;
+//   filePath: string;
+//   url: string;
+//   fileType: string;
+//   customMetadata?: { sensitive: boolean };
+// }
 
 const Post = async ({ type }: { type?: "status" | "comment" }) => {
   // FETCH POST MEDIA
