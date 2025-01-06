@@ -1,6 +1,6 @@
 import Feed from "@/components/Feed";
 import Image from "@/components/Image";
-// import Share from "@/components/Share";
+import Share from "@/components/Share";
 import Link from "next/link";
 const Homepage = () => {
   return (
@@ -21,11 +21,8 @@ const Homepage = () => {
         <Link className="hidden pb-3 md:flex items-center" href="/">
           Javascript
         </Link>
-        <Link className="hidden pb-3 md:flex items-center" href="/">
-          CSS
-        </Link>
       </div>
-      {/* <Share /> */}
+      <Share />
       <Feed />
     </div>
   );
