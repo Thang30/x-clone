@@ -18,9 +18,6 @@ const Homepage = () => {
         <Link className="hidden pb-3 md:flex items-center" href="/">
           React.js
         </Link>
-        <Link className="hidden pb-3 md:flex items-center" href="/">
-          Javascript
-        </Link>
       </div>
       <Share />
       <Feed />
