@@ -1,6 +1,6 @@
 # X-CLONE APP
 
-A Next.js 15 application based on [X](https://x.com/home)
+A Next.js 15 application based on [X](https://x.com/home). Checkout the live version here: [https://x-clone-wy6c.vercel.app/](https://x-clone-wy6c.vercel.app/)
 
 ## Tech Stack
 
