@@ -110,16 +110,16 @@ const LeftBar = () => {
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 relative rounded-full overflow-hidden">
             <Image
-              path="/general/avatar.png"
-              alt="lama dev"
+              path="/general/avatar.jpeg"
+              alt="thang30"
               w={100}
               h={100}
               tr={true}
             />
           </div>
           <div className="hidden xxl:flex flex-col">
-            <span className="font-bold">Lama Dev</span>
-            <span className="text-sm text-textGray">@lamaWebDev</span>
+            <span className="font-bold">Thang30</span>
+            <span className="text-sm text-textGray">@thang30</span>
           </div>
         </div>
         <div className="hidden xxl:block cursor-pointer font-bold">...</div>
